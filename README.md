@@ -34,8 +34,8 @@ Salesforce Metadata Folders - The Salesforce Force.com IDE Plugin for Eclipse wa
 - Part 1:  https://sfdc.co/G80ir
 - Part 2:  https://sfdc.co/cexXbg
 
-Salesforce Contact
-Brian Murphy, Principal Solution Engineer
-Salesforce Public Sector
-415-867-9525
-b.murphy@salesforce.com
+**Salesforce Contact**
+- Brian Murphy, Principal Solution Engineer
+- Salesforce Public Sector
+- 415-867-9525
+- b.murphy@salesforce.com

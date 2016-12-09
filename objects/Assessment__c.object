@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Assessment_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Assessment Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Decision_Indicator__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(Decision__c , &quot;Low Risk&quot;) , IMAGE(&quot;http://icons.iconarchive.com/icons/sekkyumu/developpers/32/Green-Ball-icon.png&quot;, &quot;Low Risk&quot;),
+
+IF(ISPICKVAL(Decision__c , &quot;Intermediate Risk&quot;) , IMAGE(&quot;http://icons.iconarchive.com/icons/sekkyumu/developpers/32/Yellow-Ball-icon.png&quot;, &quot;Intermediate Risk&quot;),
+
+IF(ISPICKVAL(Decision__c , &quot;High Risk&quot;) , IMAGE(&quot;http://icons.iconarchive.com/icons/sekkyumu/developpers/32/Red-Ball-icon.png&quot;, &quot;High Risk&quot;),
+
+IF(ISPICKVAL(Decision__c, &quot;Null&quot;), null,null))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Decision Indicator</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Decision__c</fullName>
+        <externalId>false</externalId>
+        <label>Decision</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Low Risk</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Intermediate Risk</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>High Risk</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>R01_Current_Referral_for_Neglect__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Is the current referral for Neglect?</inlineHelpText>
+        <label>R01 - Current Referral for Neglect</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>R02_Motivation_to_Improve_Parenting__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>What is the primary caregiver&apos;s motivation to improve their parenting skills?</inlineHelpText>
+        <label>R02 - Motivation to Improve Parenting</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Motivated and Realistic</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Unmotivated</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Motivated but Unrealistic</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>R03_Response_to_Investigation__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>What was the overall attitude of the primary caregiver observed during the investigation?</inlineHelpText>
+        <label>R03 - Response to Investigation</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Attitude consistent w seriousness of allegation</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Attitude not consistent w seriousness of allegation</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Failed to comply satisfactorily</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Referral__c</fullName>
+        <externalId>false</externalId>
+        <label>Referral</label>
+        <referenceTo>Referral__c</referenceTo>
+        <relationshipLabel>Assessments</relationshipLabel>
+        <relationshipName>Assessments</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Risk_Assessment_Score__c</fullName>
+        <externalId>false</externalId>
+        <formula>if (R01_Current_Referral_for_Neglect__c  = TRUE ,1,0) + 
+
+CASE(R02_Motivation_to_Improve_Parenting__c , 
+&apos;Motivated and Realistic&apos;, 0, 
+&apos;Motivated but Unrealistic&apos;, 3, 
+&apos;Unmotivated&apos;, 5, 0) + 
+
+CASE(R03_Response_to_Investigation__c , 
+&apos;Attitude consistent w seriousness of allegation&apos;, 0, 
+&apos;Attitude not consistent w seriousness of allegation&apos;, 3, 
+&apos;Failed to comply satisfactorily&apos;, 5, 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Family Risk Assessment Score formula based on &quot;California Risk Assessment Scale&quot; - https://www.ncjrs.gov/html/ojjdp/jjbul2001_7_1/figure5.pdf and https://www.ncjrs.gov/html/ojjdp/jjbul2001_7_1/page4.html#figure5</inlineHelpText>
+        <label>Risk Assessment Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>S01_Serious_Physical_Harm__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>The caregiver or perpetrator has caused serious physical harm or made a plausible threat to cause physical harm to a child as indicated by: Serious injury or abuse to the child other than accidental. Caregiver fears he/she will maltreat the child.</inlineHelpText>
+        <label>S01 - Serious Physical Harm</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>S02_Previous_History_of_Maltreatment__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>The severity of previous maltreatment or the employer/caregiver’s response to previous incidents AND current circumstances suggest that the child’s safety may be an immediate concern.</inlineHelpText>
+        <label>S02 - Previous History of Maltreatment</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>S03_Failure_to_Protect_Child__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>The caregiver/employer has failed to protect the child from serious harm or threatened harm by others, OR current circumstances suggest that the caregiver would likely be unable to protect the child from serious harm by others if the child were returned</inlineHelpText>
+        <label>S03 - Failure to Protect Child</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Safety_Assessment_Score__c</fullName>
+        <externalId>false</externalId>
+        <formula>if (S01_Serious_Physical_Harm__c = TRUE ,1,0) +
+if (S02_Previous_History_of_Maltreatment__c = TRUE ,1,0) +
+if (S03_Failure_to_Protect_Child__c = TRUE ,1,0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Safety Assessment Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <picklist>
+            <picklistValues>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Complete</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <label>Assessment</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Assessment_Date__c</columns>
+        <columns>Referral__c</columns>
+        <columns>RECORDTYPE</columns>
+        <columns>Status__c</columns>
+        <columns>Decision__c</columns>
+        <columns>Decision_Indicator__c</columns>
+        <columns>Safety_Assessment_Score__c</columns>
+        <columns>Risk_Assessment_Score__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>ASSESS-{000000}</displayFormat>
+        <label>Assessment Id</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Assessments</pluralLabel>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>Risk_Assessment</fullName>
+        <active>true</active>
+        <description>To assess family needs and strengths as they releate to neglect, abuse, maltreatment and overall risk</description>
+        <label>Risk Assessment</label>
+        <picklistValues>
+            <picklist>Decision__c</picklist>
+            <values>
+                <fullName>High Risk</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Intermediate Risk</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low Risk</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>R02_Motivation_to_Improve_Parenting__c</picklist>
+            <values>
+                <fullName>Motivated and Realistic</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Motivated but Unrealistic</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unmotivated</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>R03_Response_to_Investigation__c</picklist>
+            <values>
+                <fullName>Attitude consistent w seriousness of allegation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Attitude not consistent w seriousness of allegation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Failed to comply satisfactorily</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Complete</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Safety_Assessment</fullName>
+        <active>true</active>
+        <description>Initial Child Safety Assessment to determine the initial referral intake priority and response timeline</description>
+        <label>Safety Assessment</label>
+        <picklistValues>
+            <picklist>Decision__c</picklist>
+            <values>
+                <fullName>High Risk</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Intermediate Risk</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low Risk</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>R02_Motivation_to_Improve_Parenting__c</picklist>
+            <values>
+                <fullName>Motivated and Realistic</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Motivated but Unrealistic</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unmotivated</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>R03_Response_to_Investigation__c</picklist>
+            <values>
+                <fullName>Attitude consistent w seriousness of allegation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Attitude not consistent w seriousness of allegation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Failed to comply satisfactorily</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Complete</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>Referral__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>RECORDTYPE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Status__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Safety_Assessment_Score__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Risk_Assessment_Score__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Decision__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Decision_Indicator__c</customTabListAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <startsWith>Vowel</startsWith>
+</CustomObject>

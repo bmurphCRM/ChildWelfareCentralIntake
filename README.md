@@ -22,10 +22,16 @@ The repository also includes a complete Developers Workshop Guide / Student Hand
 
 **Repository Documents:**
 
-Salesforce Metadata Folders - The Salesforce Force.com IDE Plugin for Eclipse was used to extract all of the Central Intake Management application metadata from the Sslesforce Platform. You can use this metadata to fork, then sync to your own Salesforce org or you can use the full package installation in document #2 below.  MOre information on the Force.com IDE: https://developer.salesforce.com/page/Force.com_IDE
+Salesforce Metadata Folders - The Salesforce Force.com IDE Plugin for Eclipse was used to extract all of the Central Intake Management application metadata from the Sslesforce Platform. You can use this metadata to fork, then sync to your own Salesforce org or you can use the full package installation in document #2 below.  More information on the Force.com IDE: https://developer.salesforce.com/page/Force.com_IDE
 
 01 From Idea to Application in 1 Day - Child Welfare Intake Scenario.pdf - This document describes the scenario for Child Welfare agencies and their need to document all allegations for suspected abuse/neglect
 
 02 Central Intake Management Application Installation Instructions.pdf - Document that describes how to install the open source Salesforce Central Intake Management application in a free Salesforce Developer Edition (DE) environment.
 
 03 Salesforce Central Intake Management Application Developer Workshop - Student Guide.pdf - Complete documentation of how to build the Central Intake Management application with the Salesforce App Cloud (Force.com) platform.
+
+Salesforce Contact
+Brian Murphy, Principal Solution Engineer
+Salesforce Public Sector
+415-867-9525
+b.murphy@salesforce.com

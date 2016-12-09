@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email Template for P1 Referral Notifications</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Central_Intake_Letterhead</letterhead>
+    <name>P1 Intake Notification</name>
+    <style>freeForm</style>
+    <subject>New P1 Intake ({!Referral__c.Referral_Id__c}) - {!Referral__c.Name}</subject>
+    <textOnly>*** PRIORITY P1 REFERRAL ALERT ***
+
+This email to to notify you of a new P1 Referral that requires immediate investigation.  Safety Assessments have been completed and the score has reached P1 threshold.  Please review the Referral and note the following key information:
+
+Referral Id: {!Referral__c.Referral_Id__c}
+Referral Name: {!Referral__c.Name}
+Summary: {!Referral__c.Summary__c}
+
+===== REPORTING PARTY ======
+Name: {!Referral__c.Reporting_Party__c}
+Type: {!Referral__c.Reporter_Type__c}
+
+===== STATUS, RESPONSE PRIORITY, SCRENING DECISION ====
+Status: {!Referral__c.Status__c}
+Screening Decision: {!Referral__c.Screening_Decision__c}
+Response Priority: {!Referral__c.Response_Priority__c}
+Category: {!Referral__c.Category__c}
+Sub-Category: {!Referral__c.Sub_category__c}
+
+===== LOCATION OF INCIDENT ========
+Address:  {!Referral__c.Street__c}
+City:  {!Referral__c.City__c}
+State:  {!Referral__c.State__c}
+Zip:  {!Referral__c.Zip__c}
+Location Type:  {!Referral__c.Location_Type__c}
+
+Thank you,
+{!User.Name}
+{!User.Title}
+{!User.Email}
+{!User.Phone}</textOnly>
+    <type>html</type>
+</EmailTemplate>

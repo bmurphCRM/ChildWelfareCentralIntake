@@ -1,0 +1,7 @@
+Dear {!Connection_ExternalContactFirstName},
+
+{!User.FirstName} {!User.LastName} at {!Organization.Name} has deactivated your Salesforce to Salesforce connection. You can still access records that were shared over this connection, but updates will no longer be sent between your Salesforce organizations.
+
+Thank you,
+
+The Salesforce Team

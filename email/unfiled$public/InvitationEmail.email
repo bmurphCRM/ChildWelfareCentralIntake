@@ -1,0 +1,14 @@
+Dear {!Connection_ExternalContactFirstName},
+
+{!User.FirstName} {!User.LastName} at {!Organization.Name} has invited you to connect using Salesforce to Salesforce, a Salesforce feature that allows records to be shared between organizations.
+
+To accept or decline this invitation, you need certain Salesforce privileges, and your company's Salesforce account must have Salesforce to Salesforce enabled. If your company doesn't use Salesforce, you can apply for a trial account. If you're not sure whether you can connect, please forward this request to your system administrator.
+
+To respond to the invitation, just click this link:
+{!Connection_InvitationURL}
+
+Once the connection is active, you can start sharing records! Updates to shared records are automatically synced.
+
+Thank you,
+
+The Salesforce Team

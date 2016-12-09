@@ -1,0 +1,9 @@
+Dear {!Connection_ExternalContactFirstName},
+
+{!User.FirstName} {!User.LastName} at {!Organization.Name} has accepted your invitation to connect in Salesforce to Salesforce!
+
+You can now share records with each other. Updates to shared records are automatically synced.
+
+Thank you,
+
+The Salesforce Team

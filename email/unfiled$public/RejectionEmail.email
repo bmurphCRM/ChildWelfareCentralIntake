@@ -1,0 +1,7 @@
+Dear {!Connection_ExternalContactFirstName},
+
+{!User.FirstName} {!User.LastName} at {!Organization.Name} has declined your invitation to connect in Salesforce to Salesforce. If you have any questions, please get in touch with them directly.
+
+Thank you,
+
+The Salesforce Team

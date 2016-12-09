@@ -1,0 +1,9 @@
+Dear {!Connection_ExternalContactFirstName},
+
+{!Organization.Name} has made important updates to the {!Connection_Name} profile. You can review those updates in the Details section of the profile, which is reached from the Connections tab.
+
+Depending on the update, you may need to make changes on your end to ensure that business processes stay consistent across your organizations..
+
+Thank you for your attention.
+
+The Salesforce Team

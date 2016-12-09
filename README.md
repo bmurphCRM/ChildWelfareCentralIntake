@@ -1,5 +1,5 @@
 # Child Welfare Central Intake Management Application
-This Child Welfare Central Intake Management Application was developed in 1 day on the Salesforce Force.com (App Cloud) Platform.  The application covers the reporting and documentation of incidents of alleged abuse and neglect to a state child welfare agency.  The application functionality covers:
+This Child Welfare Central Intake Management Application was developed on the Salesforce Force.com (App Cloud) Platform.  The application covers the reporting and documentation of incidents of alleged abuse and neglect to a state child welfare agency.  The application functionality covers:
 
 - Intake Management of Child Welfare Referrals
 - Documentation of Allegations, Victims, Offenders
@@ -19,3 +19,5 @@ This Child Welfare Central Intake Management Application was developed in 1 day 
 - GIS Mapping with MapAnything from the Salesforce AppExchange
 
 The repository also includes a complete Developers Workshop Guide / Student Handbook that illustrates how this application was developed on the Force.com Platform.  The student guide takes the user through the entire lifecycle of developing the Central Intake application from spinning up a free Salesforce Developer Edition (DE) environment to creating the data model, business logic, workflow and reports/dashboards.  This guide documents the approach to how the application was developed.
+
+Please read the install directions file for information on installing this application into your own Salesforce environment.

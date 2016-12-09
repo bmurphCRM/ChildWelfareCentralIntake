@@ -1,4 +1,4 @@
-# Child Welfare Central Intake Management Application
+# SACWIS/CCWIS Child Welfare Central Intake Management Application
 This Child Welfare Central Intake Management Application was developed on the Salesforce Force.com (App Cloud) Platform and is being distributed as open source to any agency that may want to use it as an accelerator for SACWIS/CCWIS Intake Management modernization.  The application covers the reporting and documentation of incidents of alleged abuse and neglect to a state child welfare agency.  The application functionality covers:
 
 - Intake Management of Child Welfare Referrals

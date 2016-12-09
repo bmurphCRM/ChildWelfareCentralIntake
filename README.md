@@ -10,7 +10,7 @@ This Child Welfare Central Intake Management Application was developed on the Sa
 - Reports
 - Dashboards
 - Global Search
-- Use of Salesforve Chatter for contectual social collaboration (multidisciplinary teams)
+- Use of Salesforve Chatter for contectual social collaboration (multi-disciplinary teams)
 - Quick Actions to execute common tasks
 - Task and Activity Management
 - Calendaring

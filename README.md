@@ -20,7 +20,7 @@ This Child Welfare Central Intake Management Application was developed on the Sa
 
 The repository also includes a complete Developers Workshop Guide / Student Handbook that illustrates how this application was developed on the Force.com Platform.  The student guide takes the user through the entire lifecycle of developing the Central Intake application from spinning up a free Salesforce Developer Edition (DE) environment to creating the data model, business logic, workflow and reports/dashboards.  This guide documents the approach to how the application was developed.
 
-**Repository Documents:
+**Repository Documents:**
 
 01 From Idea to Application in 1 Day - Child Welfare Intake Scenario.pdf - This document describes the scenario for Child Welfare agencies and their need to document all allegations for suspected abuse/neglect
 

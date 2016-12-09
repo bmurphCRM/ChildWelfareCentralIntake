@@ -30,6 +30,10 @@ Salesforce Metadata Folders - The Salesforce Force.com IDE Plugin for Eclipse wa
 
 03 Salesforce Central Intake Management Application Developer Workshop - Student Guide.pdf - Complete documentation of how to build the Central Intake Management application with the Salesforce App Cloud (Force.com) platform.
 
+Video Demo of the Central Intake Application
+Part 1:  https://sfdc.co/G80ir
+Part 2:  https://sfdc.co/cexXbg
+
 Salesforce Contact
 Brian Murphy, Principal Solution Engineer
 Salesforce Public Sector

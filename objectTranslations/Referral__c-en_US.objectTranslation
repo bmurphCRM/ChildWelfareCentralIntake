@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Referral</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Referrals</value>
+    </caseValues>
+    <fields>
+        <help><!-- Select a category for the Referral --></help>
+        <label><!-- Category --></label>
+        <name>Category__c</name>
+        <picklistValues>
+            <masterLabel>Child Abuse / Neglect</masterLabel>
+            <translation><!-- Child Abuse / Neglect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dependency Report</masterLabel>
+            <translation><!-- Dependency Report --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Family in Need of Services</masterLabel>
+            <translation><!-- Family in Need of Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Information and/or Referral</masterLabel>
+            <translation><!-- Information and/or Referral --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Enter the city where the incident occurred --></help>
+        <label><!-- City --></label>
+        <name>City__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the date the alleged incident was reported to have actually occurred --></help>
+        <label><!-- Date Occured --></label>
+        <name>Date_Occured__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the date the alleged incident was reported --></help>
+        <label><!-- Date Reported --></label>
+        <name>Date_Reported__c</name>
+    </fields>
+    <fields>
+        <help><!-- Type of setting where the incident occurred --></help>
+        <label><!-- Location Type --></label>
+        <name>Location_Type__c</name>
+        <picklistValues>
+            <masterLabel>Child Care</masterLabel>
+            <translation><!-- Child Care --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Church</masterLabel>
+            <translation><!-- Church --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home/Residence</masterLabel>
+            <translation><!-- Home/Residence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>School</masterLabel>
+            <translation><!-- School --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Social Setting</masterLabel>
+            <translation><!-- Social Setting --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Latitude (MapAnything) --></label>
+        <name>MALatitude__c</name>
+    </fields>
+    <fields>
+        <label><!-- Longitude (MapAnything) --></label>
+        <name>MALongitude__c</name>
+    </fields>
+    <fields>
+        <help><!-- This identifies the reporting party as a lawfully mandated reporter --></help>
+        <label><!-- Mandated Reporter --></label>
+        <name>Mandated_Reporter__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field shows a Google map of the address specified on the Referral --></help>
+        <label><!-- Map the Address --></label>
+        <name>Map_the_Address__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the postal code where the incident occurred --></help>
+        <label><!-- Postal Code --></label>
+        <name>Postal_Code__c</name>
+    </fields>
+    <fields>
+        <help><!-- :  This field shows a response priority icon for P1, P2 Referrals only --></help>
+        <label><!-- Priority Indicator --></label>
+        <name>Priority_Indicator__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Referral Id is a system generated, unique Id --></help>
+        <label><!-- Referral Id --></label>
+        <name>Referral_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select a type that best represents the reporting party&apos;s role --></help>
+        <label><!-- Reporter Type --></label>
+        <name>Reporter_Type__c</name>
+        <picklistValues>
+            <masterLabel>Anonymous</masterLabel>
+            <translation><!-- Anonymous --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Athletic Coach</masterLabel>
+            <translation><!-- Athletic Coach --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Citizen</masterLabel>
+            <translation><!-- Citizen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clergy</masterLabel>
+            <translation><!-- Clergy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Day Care Provider</masterLabel>
+            <translation><!-- Day Care Provider --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legal Personnel</masterLabel>
+            <translation><!-- Legal Personnel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medical Personnel</masterLabel>
+            <translation><!-- Medical Personnel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Police/Law Enforcement</masterLabel>
+            <translation><!-- Police/Law Enforcement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>School Official</masterLabel>
+            <translation><!-- School Official --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The person reporting the incident --></help>
+        <label><!-- Reporting Party --></label>
+        <name>Reporting_Party__c</name>
+        <relationshipLabel><!-- Referrals --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The response priority determines how quickly Referrals need to be investigated --></help>
+        <label><!-- Response Priority --></label>
+        <name>Response_Priority__c</name>
+        <picklistValues>
+            <masterLabel>P1</masterLabel>
+            <translation><!-- P1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P2</masterLabel>
+            <translation><!-- P2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P3</masterLabel>
+            <translation><!-- P3 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Enter any comments for the screening decision --></help>
+        <label><!-- Screening Decision Comments --></label>
+        <name>Screening_Decision_Comments__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the screening decision made by management for this Referral --></help>
+        <label><!-- Screening Decision --></label>
+        <name>Screening_Decision__c</name>
+        <picklistValues>
+            <masterLabel>Screened In</masterLabel>
+            <translation><!-- Screened In --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Screened Out</masterLabel>
+            <translation><!-- Screened Out --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Enter the state where the incident occurred --></help>
+        <label><!-- State --></label>
+        <name>State__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field will display an icon based on the value in the status field --></help>
+        <label><!-- Status Indicator --></label>
+        <name>Status_Indicator__c</name>
+    </fields>
+    <fields>
+        <help><!-- The current status of the Referral --></help>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Approval Requested</masterLabel>
+            <translation><!-- Approval Requested --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Assessment</masterLabel>
+            <translation><!-- Assessment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disposition</masterLabel>
+            <translation><!-- Disposition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Investigation</masterLabel>
+            <translation><!-- Investigation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Screening</masterLabel>
+            <translation><!-- Screening --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Street Address --></help>
+        <label><!-- Street --></label>
+        <name>Street__c</name>
+    </fields>
+    <fields>
+        <help><!-- Sub-category options are dependent on the value in the (controlling) category picklist --></help>
+        <label><!-- Sub-category --></label>
+        <name>Sub_category__c</name>
+        <picklistValues>
+            <masterLabel>Adoption Subsidy Only</masterLabel>
+            <translation><!-- Adoption Subsidy Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Baby Doe/Disabled Infant</masterLabel>
+            <translation><!-- Baby Doe/Disabled Infant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Child Fatality</masterLabel>
+            <translation><!-- Child Fatality --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Courtesy Supervision - ICJ</masterLabel>
+            <translation><!-- Courtesy Supervision - ICJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Courtesy Supervision - ICPC</masterLabel>
+            <translation><!-- Courtesy Supervision - ICPC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dependent Child</masterLabel>
+            <translation><!-- Dependent Child --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Emancipated Youth</masterLabel>
+            <translation><!-- Emancipated Youth --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Emotional Maltreatment</masterLabel>
+            <translation><!-- Emotional Maltreatment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Information Only</masterLabel>
+            <translation><!-- Information Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medical Neglect</masterLabel>
+            <translation><!-- Medical Neglect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neglect</masterLabel>
+            <translation><!-- Neglect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Permanent Surrender</masterLabel>
+            <translation><!-- Permanent Surrender --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Physical Abuse</masterLabel>
+            <translation><!-- Physical Abuse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Physical Abuse Shaken Baby</masterLabel>
+            <translation><!-- Physical Abuse Shaken Baby --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Post-Finalization Adoption Services</masterLabel>
+            <translation><!-- Post-Finalization Adoption Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Safe Haven/Deserted Child</masterLabel>
+            <translation><!-- Safe Haven/Deserted Child --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Specialized Assessment/Investigation</masterLabel>
+            <translation><!-- Specialized Assessment/Investigation --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Please enter a brief summary of the alleged incident of abuse/neglect --></help>
+        <label><!-- Summary --></label>
+        <name>Summary__c</name>
+    </fields>
+    <layouts>
+        <layout>Referral Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Location --></label>
+            <section>Location</section>
+        </sections>
+        <sections>
+            <label><!-- Record Info --></label>
+            <section>Record Info</section>
+        </sections>
+        <sections>
+            <label><!-- Reporting Party Information --></label>
+            <section>Reporting Party Information</section>
+        </sections>
+        <sections>
+            <label><!-- Screening Decision --></label>
+            <section>Screening Decision</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- New Allegation --></label>
+        <name>NEW_ALLEGATION</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- If Screening Decision = Screened Out, you MUST enter comments --></errorMessage>
+        <name>Screened_Out_Requires_Comments</name>
+    </validationRules>
+    <workflowTasks>
+        <description><!-- Conduct Initial Safety Assessment to determine response priority --></description>
+        <name>Conduct_Initial_Safety_Assessment</name>
+        <subject><!-- Conduct Initial Safety Assessment --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <description><!-- Add allegations, alleged victims and alleged offenders --></description>
+        <name>Document_Allegations</name>
+        <subject><!-- Document Allegations --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <description><!-- Please document all Referral Data including reporting party, category and location --></description>
+        <name>Document_Complete_Referral_Record_Data</name>
+        <subject><!-- Document &amp; Complete Referral Record Data --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <description><!-- Initial activity by WF --></description>
+        <name>Please_review_new_referral</name>
+        <subject><!-- Please review new referral --></subject>
+    </workflowTasks>
+</CustomObjectTranslation>

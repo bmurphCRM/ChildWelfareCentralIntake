@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Allegation</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Allegations</value>
+    </caseValues>
+    <fields>
+        <label><!-- Disposition Indicator --></label>
+        <name>Disposition_Indicator__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disposition --></label>
+        <name>Disposition__c</name>
+        <picklistValues>
+            <masterLabel>Substantiated</masterLabel>
+            <translation><!-- Substantiated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unfounded</masterLabel>
+            <translation><!-- Unfounded --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unsubstantiated</masterLabel>
+            <translation><!-- Unsubstantiated --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Offender --></label>
+        <name>Offender__c</name>
+        <relationshipLabel><!-- Allegations (Offender) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Referral --></label>
+        <name>Referral__c</name>
+        <relationshipLabel><!-- Allegations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Approval</masterLabel>
+            <translation><!-- Pending Approval --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sub-Type --></label>
+        <name>Sub_Type__c</name>
+        <picklistValues>
+            <masterLabel>Baby Doe/Disabled Infant</masterLabel>
+            <translation><!-- Baby Doe/Disabled Infant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Child Fatality</masterLabel>
+            <translation><!-- Child Fatality --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Emotional Abuse</masterLabel>
+            <translation><!-- Emotional Abuse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Emotional Maltreatment</masterLabel>
+            <translation><!-- Emotional Maltreatment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Neglect</masterLabel>
+            <translation><!-- General Neglect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medical Neglect</masterLabel>
+            <translation><!-- Medical Neglect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Permanent Surrender</masterLabel>
+            <translation><!-- Permanent Surrender --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Physical Abuse</masterLabel>
+            <translation><!-- Physical Abuse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Physical Abuse Shaken Baby</masterLabel>
+            <translation><!-- Physical Abuse Shaken Baby --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Physical Neglect</masterLabel>
+            <translation><!-- Physical Neglect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Safe Haven/Deserted Child</masterLabel>
+            <translation><!-- Safe Haven/Deserted Child --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Summary --></label>
+        <name>Summary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Abuse</masterLabel>
+            <translation><!-- Abuse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maltreatment</masterLabel>
+            <translation><!-- Maltreatment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neglect</masterLabel>
+            <translation><!-- Neglect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Victim --></label>
+        <name>Victim__c</name>
+        <relationshipLabel><!-- Allegations --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Allegation Layout</layout>
+        <sections>
+            <label><!-- Allegation Info --></label>
+            <section>Allegation Info</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Parties --></label>
+            <section>Parties</section>
+        </sections>
+        <sections>
+            <label><!-- Record Info --></label>
+            <section>Record Info</section>
+        </sections>
+    </layouts>
+    <startsWith>Vowel</startsWith>
+    <workflowTasks>
+        <description><!-- Automatically closed allegation based on approval by supervisor --></description>
+        <name>Automatically_Closed_Allegation</name>
+        <subject><!-- Automatically Closed Allegation --></subject>
+    </workflowTasks>
+</CustomObjectTranslation>

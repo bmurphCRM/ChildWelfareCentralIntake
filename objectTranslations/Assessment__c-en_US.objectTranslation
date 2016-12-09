@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Assessment</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Assessments</value>
+    </caseValues>
+    <fields>
+        <label><!-- Assessment Date --></label>
+        <name>Assessment_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Decision Indicator --></label>
+        <name>Decision_Indicator__c</name>
+    </fields>
+    <fields>
+        <label><!-- Decision --></label>
+        <name>Decision__c</name>
+        <picklistValues>
+            <masterLabel>High Risk</masterLabel>
+            <translation><!-- High Risk --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intermediate Risk</masterLabel>
+            <translation><!-- Intermediate Risk --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low Risk</masterLabel>
+            <translation><!-- Low Risk --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Is the current referral for Neglect? --></help>
+        <label><!-- R01 - Current Referral for Neglect --></label>
+        <name>R01_Current_Referral_for_Neglect__c</name>
+    </fields>
+    <fields>
+        <help><!-- What is the primary caregiver&apos;s motivation to improve their parenting skills? --></help>
+        <label><!-- R02 - Motivation to Improve Parenting --></label>
+        <name>R02_Motivation_to_Improve_Parenting__c</name>
+        <picklistValues>
+            <masterLabel>Motivated and Realistic</masterLabel>
+            <translation><!-- Motivated and Realistic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Motivated but Unrealistic</masterLabel>
+            <translation><!-- Motivated but Unrealistic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unmotivated</masterLabel>
+            <translation><!-- Unmotivated --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- What was the overall attitude of the primary caregiver observed during the investigation? --></help>
+        <label><!-- R03 - Response to Investigation --></label>
+        <name>R03_Response_to_Investigation__c</name>
+        <picklistValues>
+            <masterLabel>Attitude consistent w seriousness of allegation</masterLabel>
+            <translation><!-- Attitude consistent w seriousness of allegation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Attitude not consistent w seriousness of allegation</masterLabel>
+            <translation><!-- Attitude not consistent w seriousness of allegation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Failed to comply satisfactorily</masterLabel>
+            <translation><!-- Failed to comply satisfactorily --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Referral --></label>
+        <name>Referral__c</name>
+        <relationshipLabel><!-- Assessments --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Family Risk Assessment Score formula based on &quot;California Risk Assessment Scale&quot; - https://www.ncjrs.gov/html/ojjdp/jjbul2001_7_1/figure5.pdf and https://www.ncjrs.gov/html/ojjdp/jjbul2001_7_1/page4.html#figure5 --></help>
+        <label><!-- Risk Assessment Score --></label>
+        <name>Risk_Assessment_Score__c</name>
+    </fields>
+    <fields>
+        <help><!-- The caregiver or perpetrator has caused serious physical harm or made a plausible threat to cause physical harm to a child as indicated by: Serious injury or abuse to the child other than accidental. Caregiver fears he/she will maltreat the child. --></help>
+        <label><!-- S01 - Serious Physical Harm --></label>
+        <name>S01_Serious_Physical_Harm__c</name>
+    </fields>
+    <fields>
+        <help><!-- The severity of previous maltreatment or the employer/caregiver’s response to previous incidents AND current circumstances suggest that the child’s safety may be an immediate concern. --></help>
+        <label><!-- S02 - Previous History of Maltreatment --></label>
+        <name>S02_Previous_History_of_Maltreatment__c</name>
+    </fields>
+    <fields>
+        <help><!-- The caregiver/employer has failed to protect the child from serious harm or threatened harm by others, OR current circumstances suggest that the caregiver would likely be unable to protect the child from serious harm by others if the child were returned --></help>
+        <label><!-- S03 - Failure to Protect Child --></label>
+        <name>S03_Failure_to_Protect_Child__c</name>
+    </fields>
+    <fields>
+        <label><!-- Safety Assessment Score --></label>
+        <name>Safety_Assessment_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Assessment - Risk</layout>
+        <sections>
+            <label><!-- Assessment Info --></label>
+            <section>Assessment Info</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Record Info --></label>
+            <section>Record Info</section>
+        </sections>
+        <sections>
+            <label><!-- Risk Assessment --></label>
+            <section>Risk Assessment</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Assessment - Safety</layout>
+        <sections>
+            <label><!-- Assessment Info --></label>
+            <section>Assessment Info</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Record Info --></label>
+            <section>Record Info</section>
+        </sections>
+        <sections>
+            <label><!-- Safety Assessment --></label>
+            <section>Safety Assessment</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Assessment Layout</layout>
+        <sections>
+            <label><!-- Assessment Info --></label>
+            <section>Assessment Info</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Record Info --></label>
+            <section>Record Info</section>
+        </sections>
+        <sections>
+            <label><!-- Risk Assessment --></label>
+            <section>Risk Assessment</section>
+        </sections>
+        <sections>
+            <label><!-- Safety Assessment --></label>
+            <section>Safety Assessment</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Risk Assessment --></label>
+        <name>Risk_Assessment</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Safety Assessment --></label>
+        <name>Safety_Assessment</name>
+    </recordTypes>
+    <startsWith>Vowel</startsWith>
+    <workflowTasks>
+        <description><!-- Initial Safety Assessment is complete (generated by workflow rule) --></description>
+        <name>Initial_Safety_Assessment_Completed</name>
+        <subject><!-- Initial Safety Assessment Completed --></subject>
+    </workflowTasks>
+</CustomObjectTranslation>

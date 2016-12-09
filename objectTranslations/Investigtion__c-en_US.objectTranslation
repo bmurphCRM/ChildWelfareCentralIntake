@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Investigtion</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Investigtions</value>
+    </caseValues>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disposition Indicator --></label>
+        <name>Disposition_Indicator__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disposition --></label>
+        <name>Disposition__c</name>
+        <picklistValues>
+            <masterLabel>Substantiated</masterLabel>
+            <translation><!-- Substantiated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unfounded</masterLabel>
+            <translation><!-- Unfounded --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unsubstantiated</masterLabel>
+            <translation><!-- Unsubstantiated --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Due Date --></label>
+        <name>Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Referral --></label>
+        <name>Referral__c</name>
+        <relationshipLabel><!-- Investigtion --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status Indicator --></label>
+        <name>Status_Indicator__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Under Review</masterLabel>
+            <translation><!-- Under Review --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Investigtion Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Investigation Info --></label>
+            <section>Investigation Info</section>
+        </sections>
+        <sections>
+            <label><!-- Narrative --></label>
+            <section>Narrative</section>
+        </sections>
+        <sections>
+            <label><!-- Record Info --></label>
+            <section>Record Info</section>
+        </sections>
+        <sections>
+            <label><!-- Status &amp; Disposition --></label>
+            <section>Status &amp; Disposition</section>
+        </sections>
+    </layouts>
+    <startsWith>Vowel</startsWith>
+    <workflowTasks>
+        <description><!-- Document all evidence such as notes, activities taken, attachments, chatter posts etc. --></description>
+        <name>Document_all_Evidence</name>
+        <subject><!-- Document all Evidence --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <description><!-- Interview all parties involved in the allegations --></description>
+        <name>Interview_all_Parties</name>
+        <subject><!-- Interview all Parties --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <description><!-- Submit investigation for management review/approval when completed --></description>
+        <name>Submit_for_Manager_Review</name>
+        <subject><!-- Submit for Manager Review --></subject>
+    </workflowTasks>
+</CustomObjectTranslation>

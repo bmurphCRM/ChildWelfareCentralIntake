@@ -1,0 +1,14 @@
+Child Welfare Central Intake Management Application - Salesforce (Metadata) Package
+https://login.salesforce.com/packaging/installPackage.apexp?p0=04t15000000AWWh
+
+Directions:
+
+1) Register for a **FREE** Salesforce Developer Edition (DE) "Org" at:  http://developer.salesforce.com/Signup
+
+2) Navigate to http://login.salesforce.com and login to your Salesforce Org with your newly created user name and password
+
+3) Past in this URL:  https://login.salesforce.com/packaging/installPackage.apexp?p0=04t15000000AWWh
+
+4) Walk though the installation wizard to install the package, choosing "Install for All Users"
+
+5) Once the package installation is complete, go to the Application Picker and select the "Central Intake" Application

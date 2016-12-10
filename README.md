@@ -33,6 +33,7 @@ Salesforce Metadata Folders - The Salesforce Force.com IDE Plugin for Eclipse wa
 **Video Demo of the Central Intake Application**
 - Part 1:  https://sfdc.co/G80ir
 - Part 2:  https://sfdc.co/cexXbg
+- Part 3:  https://sfdc.co/KoME7
 
 **Salesforce Contact**
 - Brian Murphy, Principal Solution Engineer

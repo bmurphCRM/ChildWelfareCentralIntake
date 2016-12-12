@@ -5,12 +5,12 @@ This Child Welfare Central Intake Management Application was developed on the Sa
 - Documentation of Allegations, Victims, Offenders
 - Risk & Safety Assessments for Initial Screening Decisions
 - Investigation Managemnt (including mobile investigations)
-- Approval Processed (including mobile approvals)
+- Approval Processes (including mobile approvals)
 - Workflow Management
 - Reports
 - Dashboards
 - Global Search
-- Use of Salesforce Chatter for contectual social collaboration (multi-disciplinary teams)
+- Use of Salesforce Chatter for contextual social collaboration (multi-disciplinary teams)
 - Quick Actions to execute common tasks
 - Task and Activity Management
 - Calendaring
@@ -26,7 +26,7 @@ Salesforce Metadata Folders - The Salesforce Force.com IDE Plugin for Eclipse wa
 
 01 From Idea to Application in 1 Day - Child Welfare Intake Scenario.pdf - This document describes the scenario for Child Welfare agencies and their need to document all allegations for suspected abuse/neglect
 
-02 Central Intake Management Application Installation Instructions.pdf - Document that describes how to install the open source Salesforce Central Intake Management application in a free Salesforce Developer Edition (DE) environment.
+02 Central Intake Management Application Installation Instructions.pdf - Document that describes how to install the open source Salesforce Central Intake Management application in a free Salesforce Developer Edition (DE) environment.  (You'll be up an running in 15 minutes!)
 
 03 Salesforce Central Intake Management Application Developer Workshop - Student Guide.pdf - Complete documentation of how to build the Central Intake Management application with the Salesforce App Cloud (Force.com) platform.
 

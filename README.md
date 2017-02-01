@@ -1,7 +1,7 @@
 # SACWIS/CCWIS Child Welfare Central Intake Management Application
 This Child Welfare Central Intake Management Application was developed on the Salesforce Force.com (App Cloud) Platform and is being distributed as open source to any agency that may want to use it as an accelerator for SACWIS/CCWIS Intake Management modernization.  The application covers the reporting and documentation of incidents of alleged abuse and neglect to a state child welfare agency.  The application functionality covers:
 
-![stack Overflow](https://photos.smugmug.com/Other/WebsiteImages/n-tKs9G/i-QGmnR8c/0/XL/i-QGmnR8c-XL.jpg)
+![Dashboard](https://photos.smugmug.com/Other/WebsiteImages/n-tKs9G/i-QGmnR8c/0/XL/i-QGmnR8c-XL.jpg)
 
 - Intake Management of Child Welfare Referrals
 - Documentation of Allegations, Victims, Offenders
@@ -36,6 +36,15 @@ Salesforce Metadata Folders - The Salesforce Force.com IDE Plugin for Eclipse wa
 - Part 1:  https://sfdc.co/G80ir
 - Part 2:  https://sfdc.co/cexXbg
 - Part 3:  https://sfdc.co/KoME7
+
+**Example Salesforce View List of Intake/Referral Records**
+![Dashboard](https://photos.smugmug.com/Other/WebsiteImages/n-tKs9G/i-6nwmfpJ/0/XL/i-6nwmfpJ-XL.jpg)
+
+**Example Salesforce Intake Record Detail View with Case Team Social Collaboration**
+![Dashboard](https://photos.smugmug.com/Other/WebsiteImages/n-tKs9G/i-BXKNwF8/0/XL/i-BXKNwF8-XL.jpg)
+
+**Example Salesforce Spatial Mapping of P1 & P2 Intake/Referral Records**
+![Dashboard](https://photos.smugmug.com/Other/WebsiteImages/n-tKs9G/i-XhF8zMS/0/XL/i-XhF8zMS-XL.jpg)
 
 **Salesforce Contact**
 - Brian Murphy, Principal Solution Engineer

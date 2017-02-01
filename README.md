@@ -28,9 +28,9 @@ Salesforce Metadata Folders - The Salesforce Force.com IDE Plugin for Eclipse wa
 
 01 From Idea to Application in 1 Day - Child Welfare Intake Scenario.pdf - This document describes the scenario for Child Welfare agencies and their need to document all allegations for suspected abuse/neglect
 
-02 Central Intake Management Application Installation Instructions.pdf - Document that describes how to install the open source Salesforce Central Intake Management application in a free Salesforce Developer Edition (DE) environment.  (You'll be up an running in 15 minutes!)
+02 Central Intake Management Application Installation Instructions.pdf - Document that describes how to install the open source Salesforce Central Intake Management application in a free Salesforce Developer Edition (DE) environment.  (You'll be up and running in 15 minutes!)
 
-03 Salesforce Central Intake Management Application Developer Workshop - Student Guide.pdf - Complete documentation of how to build the Central Intake Management application with the Salesforce App Cloud (Force.com) platform.
+03 Salesforce Central Intake Management Application Developer Workshop - Student Guide.pdf - Complete documentation of how to build the Central Intake Management application with the Salesforce App Cloud (Force.com) platform from scratch in less than 1 day.
 
 **Video Demo of the Central Intake Application**
 - Part 1:  https://sfdc.co/G80ir

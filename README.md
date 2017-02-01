@@ -38,12 +38,15 @@ Salesforce Metadata Folders - The Salesforce Force.com IDE Plugin for Eclipse wa
 - Part 3:  https://sfdc.co/KoME7
 
 **Example Salesforce View List of Intake/Referral Records**
+
 ![Dashboard](https://photos.smugmug.com/Other/WebsiteImages/n-tKs9G/i-6nwmfpJ/0/XL/i-6nwmfpJ-XL.jpg)
 
 **Example Salesforce Intake Record Detail View with Case Team Social Collaboration**
+
 ![Dashboard](https://photos.smugmug.com/Other/WebsiteImages/n-tKs9G/i-BXKNwF8/0/XL/i-BXKNwF8-XL.jpg)
 
 **Example Salesforce Spatial Mapping of P1 & P2 Intake/Referral Records**
+
 ![Dashboard](https://photos.smugmug.com/Other/WebsiteImages/n-tKs9G/i-XhF8zMS/0/XL/i-XhF8zMS-XL.jpg)
 
 **Salesforce Contact**
